@@ -35,7 +35,7 @@ const Account: React.FC<AccountProps> = ({ address, deactivate }) => {
 
   return (
     <>
-      <S.TokenBalance>{governanceTokenBalance} βH</S.TokenBalance>
+      <S.TokenBalance>{governanceTokenBalance} GVR</S.TokenBalance>
       <S.ConnectButton onClick={() => deactivate()}>
         {`${address.substring(0, 7)}...${address.substring(
           address.length - 3,
